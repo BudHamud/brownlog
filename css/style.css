@@ -14,6 +14,15 @@ header {
   background-color: #1f2937;
   color: white;
   padding: 25px;
+  align-items: center;
+}
+
+header img {
+  width: 80px;
+}
+
+header div {
+  display: flex;
 }
 
 ul {
@@ -28,6 +37,11 @@ nav {
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  border-bottom: solid 2px white;
 }
 
 /* Section 1 */
@@ -39,8 +53,7 @@ a {
   background-color: #1f2937;
 }
 
-img {
-  filter: blur(6px);
+#sec-ini img {
   width: 400px;
 }
 
@@ -85,23 +98,24 @@ img {
 
 /* Main */
 
-main {
+#sec4 {
   text-align: center;
   margin-top: 40px;
-  width: 800px;
+  width: 70%;
   margin-right: auto;
   margin-left: auto;
+  gap: 20px;
 }
 
 .sec3 {
-    width: 100px;
+  width: 100px;
   height: 100px;
   margin: 40px 20px;
   border: solid lightslategray 3px;
   border-radius: 10px;
 }
 
-main section {
+#sec4 section {
     margin-top: 40px;
     width: 150px;
     height: 300px;
@@ -114,7 +128,7 @@ main section img {
     filter: blur(0);
 }
 
-article {
+#quote {
     background-color: hsl(0, 0%, 93%);
     width: 100%;
     padding: 50px 0px;
@@ -123,12 +137,23 @@ article {
     text-align: center;
 }
 
+#quote div {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#rebq {
+  padding-top: 30px;
+  width: 70%;
+  font-weight: bold;
+  text-align: end;
+}
+
 #sing {
-    margin: 50px 600px;
     background-color: lightblue;
     padding: 50px;
-    border-radius: 10px;
     display: flex;
+    justify-content: center;
 }
 
 #bloq1 {
@@ -141,6 +166,47 @@ article {
     padding: 7px 20px;
     border-radius: 10px;
 }
+
+/* Contact Us */
+
+#main2 {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main2 a {
+  color: gray;
+}
+
+#main2 a:hover #thanks {
+  border: none;
+  display: block;
+}
+
+#thanks {
+  width: 400px;
+  display: none;
+  position: absolute;
+}
+
+/* About Us */
+
+#main3 {
+  width: 70%;
+  margin: 30px auto;
+}
+
+#main3 p {
+  margin-bottom: 20px;
+}
+
+#main3 img {
+  width: 100%;
+}
+
+/* Footer */
 
 footer {
     width: 100%;
