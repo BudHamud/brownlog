@@ -28,7 +28,7 @@ header div {
 ul {
   display: flex;
   list-style: none;
-  justify-content: space-around;
+  justify-content:space-around ;
 }
 
 nav {
@@ -44,7 +44,7 @@ a:hover {
   border-bottom: solid 2px white;
 }
 
-/* Section 1 */
+/* First Box */
 
 #sec-ini {
   display: flex;
@@ -54,7 +54,7 @@ a:hover {
 }
 
 #sec-ini img {
-  width: 400px;
+  width: 300px;
 }
 
 #parte1,
@@ -62,7 +62,6 @@ a:hover {
   padding: 50px;
   margin: 0 auto;
   width: 30%;
-  align-items: baseline;
   background-color: #1f2937;
   justify-content: center;
 }
@@ -70,6 +69,7 @@ a:hover {
 #parte1 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding-left: 20px;
   color: white;
 }
@@ -90,10 +90,12 @@ a:hover {
 #parte1 button {
   color: white;
   font-weight: bold;
-  background-color: lightblue;
+  background-color: #3882f6;
   border: 0;
   border-radius: 5px;
   padding: 8px 15px;
+  padding: 10px;
+  width: 150px;
 }
 
 /* Main */
@@ -102,8 +104,7 @@ a:hover {
   text-align: center;
   margin-top: 40px;
   width: 70%;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 50px auto;
   gap: 20px;
 }
 
@@ -122,7 +123,7 @@ a:hover {
     display: inline-block;
 }
 
-main section img {
+main #sec4 img {
     width: 100%;
     height: 50%;
     filter: blur(0);
@@ -150,7 +151,8 @@ main section img {
 }
 
 #sing {
-    background-color: lightblue;
+    background-color: #3882f6;
+    color: white;
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -161,7 +163,7 @@ main section img {
 }
 
 #btn button {
-    background-color: lightblue;
+    background-color: #3882f6;
     border: solid 2px white;
     padding: 7px 20px;
     border-radius: 10px;
@@ -174,6 +176,8 @@ main section img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  line-height: 5;
 }
 
 #main2 a {
@@ -189,6 +193,7 @@ main section img {
   width: 400px;
   display: none;
   position: absolute;
+  margin: auto auto;
 }
 
 /* About Us */
@@ -214,4 +219,28 @@ footer {
     color: white;
     padding: 30px 0px;
     text-align: center;
+}
+
+/* Celu */
+
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+  }
+
+  #sec-ini {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  #parte1,
+  #parte2 {
+  width: 50%;
+  }
 }
