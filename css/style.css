@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Noto Sans';
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1f2937;
+  color: white;
+  padding: 25px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+nav {
+  width: 60%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Section 1 */
+
+#sec-ini {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #1f2937;
+}
+
+img {
+  filter: blur(6px);
+  width: 400px;
+}
+
+#parte1,
+#parte2 {
+  padding: 50px;
+  margin: 0 auto;
+  width: 30%;
+  align-items: baseline;
+  background-color: #1f2937;
+  justify-content: center;
+}
+
+#parte1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  color: white;
+}
+
+#parte2 {
+  display: flex;
+  justify-content: center;
+}
+
+#parte1 h2 {
+  margin-bottom: 20px;
+}
+
+#parte1 p {
+  margin-bottom: 20px;
+}
+
+#parte1 button {
+  color: white;
+  font-weight: bold;
+  background-color: lightblue;
+  border: 0;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+/* Main */
+
+main {
+  text-align: center;
+  margin-top: 40px;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sec3 {
+    width: 100px;
+  height: 100px;
+  margin: 40px 20px;
+  border: solid lightslategray 3px;
+  border-radius: 10px;
+}
+
+main section {
+    margin-top: 40px;
+    width: 150px;
+    height: 300px;
+    display: inline-block;
+}
+
+main section img {
+    width: 100%;
+    height: 50%;
+    filter: blur(0);
+}
+
+article {
+    background-color: hsl(0, 0%, 93%);
+    width: 100%;
+    padding: 50px 0px;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+
+#sing {
+    margin: 50px 600px;
+    background-color: lightblue;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+}
+
+#bloq1 {
+    margin-right: 60px;
+}
+
+#btn button {
+    background-color: lightblue;
+    border: solid 2px white;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+}
