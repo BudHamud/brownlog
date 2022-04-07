@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="img/browlog.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Brownlog</title>
   </head>
   <body>
@@ -35,34 +36,34 @@
       </div>
 
       <div id="parte2">
-        <img src="img/brownies.jpg" alt="" />
+        <img data-aos="fade-up" src="img/brownies.jpg" alt="" />
       </div>
     </section>
 
       <article id="sec4">
         <h2>¿Why our brownies are so tasty?</h2>
-        <section>
+        <section data-aos="zoom-in">
           <img src="img/brown.jpg" alt="" />
           <p>
             Our brownies are made of pure love, that's our secret recipe, so are 0% chance of hate.
           </p>
         </section>
 
-        <section>
+        <section data-aos="zoom-in">
           <img src="img/brown-choco.jpg" alt="" />
           <p>
             We have the purest cocoa in all the entire roundabout, and we bring it to you.
           </p>
         </section>
 
-        <section>
+        <section data-aos="zoom-in">
           <img src="img/brown-ice.jpg" alt="" />
           <p>
             Try our distinghised flavors, we have many of them so come and get it, you need it.
           </p>
         </section>
 
-        <section>
+        <section data-aos="zoom-in">
           <img src="img/brown-mint.jpg" alt="" />
           <p>
             Are you one of the weirdos who likes mint hail? Eat this, and feel as weird as you can.
@@ -93,5 +94,10 @@
     </main>
 
     <footer><p>Copyright &copy; The Brownlog Project 2022</p></footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
